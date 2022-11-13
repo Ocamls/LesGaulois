@@ -26,6 +26,7 @@ public class Gaulois {
 	
 	public void frapper(Romain romain) {
 		System.out.println(nom + " envoie un grand coup dans la machoire de " + romain.getNom());
+		
 		int coup = (force/3)*effetPotion;
 		romain.recevoirCoup(coup);
 	}
@@ -48,7 +49,7 @@ public class Gaulois {
 		asterix.parler("Bonjour");
 		asterix.prendreParole();
 		asterix.frapper(minus);
-		asterix.boirePotion(8);
+		asterix.boirePotion(5);
 		asterix.frapper(minus);
 	}
 	
