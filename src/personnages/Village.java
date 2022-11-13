@@ -47,7 +47,7 @@ public class Village {
 		Chef abraracourcix = new Chef("Abraracourcix", 6, irreductibles);
 		irreductibles.setChef(abraracourcix);
 		Gaulois asterix = new Gaulois("Astérix", 8);
-		Gaulois obelix = new Gaulois("Obélix", 25);
+		Gaulois obelix = new Gaulois("Obélix", 10);
 		irreductibles.ajouterVillageois(asterix);
 //		System.out.println(irreductibles);
 		Gaulois gaulois = irreductibles.trouverHabitant(0);
