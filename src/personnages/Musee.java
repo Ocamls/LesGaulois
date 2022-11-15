@@ -1,7 +1,7 @@
 package personnages;
 
 public class Musee {
-	private Trophee[] trophees = new Trophee[200];
+	private Trophee[] trophees = new Trophee[4];
 	private int nbTrophee=0;
 	
 	public Musee() {
@@ -13,6 +13,7 @@ public class Musee {
 		nbTrophee ++;
 	}
 
+	/* Il y a une erreur sur le code en Caml voir sur internet comment faire */
 	
 	public void extraireInstructionCaml() {
 		String guillemet = "\"";

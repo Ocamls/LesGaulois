@@ -3,13 +3,14 @@ package histoire;
 import personnages.Druide;
 import personnages.Equipement;
 import personnages.Gaulois;
+import personnages.Musee;
 import personnages.Romain;
-//import villagegaulois.Musee;
+
 
 public class Scenario {
 
 	public static void main(String[] args) {
-		Druide druide = new Druide("Panoramix", 5, 10);
+		Druide druide = new Druide("Panoramix", 8, 10);
 		druide.parler("Je vais aller préparer une petite potion...");
 		druide.preparerPotion();
 		Gaulois obelix = new Gaulois("Obélix", 25);
@@ -34,8 +35,8 @@ public class Scenario {
 		
 //		Partie a decommenter
 		
-//		Musee musee = new Musee();
-//		asterix.faireUneDonnation(musee);
+		Musee musee = new Musee();
+		asterix.faireUneDonnation(musee);
 
 	}
 

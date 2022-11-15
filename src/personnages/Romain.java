@@ -40,6 +40,7 @@ public class Romain {
 		 parler("Aïe");
 		 } else {
 		 equipementEjecte = ejecterEquipement();
+
 		 parler("J'abandonne...");
 		 }
 		// post condition la force à diminuer
@@ -66,6 +67,9 @@ public class Romain {
 
 		parler(texte);
 		forceCoup -= resistanceEquipement;
+		if(forceCoup<0) {
+			forceCoup=0;
+		}
 		return forceCoup;
 	}
 
